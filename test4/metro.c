@@ -20,10 +20,10 @@ int main() {
 
 		switch (bekat){
 
-			case 1:
-				printf(" Qipchoq\n Afrosiyob\n Sirgali\n Toshkent halqa yoli\n Choshtepa\n Olmozor\n Chilonzor\n Mirzo Ulugbek\n Novza\n Milliy Bog\n Xalqlar dostligi\n Paxtakor\n Mustaqillik maydoni\n Amir Temur xiyoboni\n Hamid Olimjon\n Pushkin\n Buyuk ipak yoli\n  ");
-					break;
-			case 2:
+		    case 1:
+			printf(" Qipchoq\n Afrosiyob\n Sirgali\n Toshkent halqa yoli\n Choshtepa\n Olmozor\n Chilonzor\n Mirzo Ulugbek\n Novza\n Milliy Bog\n Xalqlar dostligi\n Paxtakor\n Mustaqillik maydoni\n Amir Temur xiyoboni\n Hamid Olimjon\n Pushkin\n Buyuk ipak yoli\n  ");
+				break;
+		    case 2:
 		       printf(" Afrosiyob\n Sirgali\n Toshkent halqa yoli\n Choshtepa\n Olmozor\n Chilonzor\n Mirzo Ulugbek\n Novza\n Milliy Bog\n Xalqlar dostligi\n Paxtakor\n Mustaqillik maydoni\n Amir Temur xiyoboni\n Hamid Olimjon\n Pushkin\n Buyuk ipak yoli\n  ");
 		       		break;
 		    case 3:
