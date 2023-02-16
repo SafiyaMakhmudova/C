@@ -5,7 +5,6 @@ int main () {
 	int a[5][5];
 
 	printf("Enter 25 numbers: ");
-
 	for(int i=0; i<5; i++) {
 		for(int j=0; j<5; j++) {
 			scanf("%d", &a[i][j]);
@@ -22,15 +21,10 @@ int main () {
 			}
 
 			else printf("%2d ", a[i][j]);
-
-
-
 		}
 
 		puts("");
-
 	}
-
 
 	return 0;
 }
