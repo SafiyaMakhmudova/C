@@ -25,7 +25,7 @@ int main () {
 	   fscanf(f, "%s", str1);
 	   	if(min>strlen(str1)){
 	   		strcpy(array2, str1);
-	   		       min=strlen(str1);
+	   		 min=strlen(str1);
 	   	}
 	}
 	
