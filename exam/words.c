@@ -22,19 +22,15 @@ int main () {
 	   	
 		}
 		
-	   		
-		
 	   fscanf(f, "%s", str1);
 	   	if(min>strlen(str1)){
 	   		strcpy(array2, str1);
 	   		       min=strlen(str1);
 	   	}
-	   	
 	}
 	
 	fclose(f);
-	
-		
+
 	FILE *f1=fopen("output.txt", "w");
 	
 	fputs("Eng uzun so'z: ", f1);
@@ -44,7 +40,6 @@ int main () {
 	
 	fputs("Eng qisqa so'z:", f1);
 	fprintf(f1, "%s", array2);
-	
 	
 	fclose(f1);
 	return 0;
