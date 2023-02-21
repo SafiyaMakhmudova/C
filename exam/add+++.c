@@ -3,19 +3,19 @@
 #include <stdlib.h>
 
 int main () {
-	char str[256];
+	char str1[256];
 	int i=0;
 
 	printf("Enter sentence: ");
-	scanf("%s", str);
+	fgets(str1, 256, stdin);
 
 	printf("Output: ");
 
-	while(str[i]!='\0'){ 
+	while(str1[i]!='\0'){ 
 
 
-		printf("%c", str[i]);
-		if(str[i]=='+')
+		printf("%c", str1[i]);
+		if(str1[i]=='+')
 			printf("++");
 
 	i++;
