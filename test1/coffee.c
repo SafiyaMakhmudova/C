@@ -2,7 +2,7 @@
 
 	int main() {
 
-	int n, m,d=500,d1=400,d2=300,d3=200,d4=700;
+	int n, m, d=500,d1=400,d2=300,d3=200,d4=700;
 	scanf("%i %i",&n,&m);
 
 	switch (n) {
