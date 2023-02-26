@@ -12,13 +12,10 @@ int main () {
 	printf("Output: ");
 
 	while(str1[i]!='\0'){ 
-
-
 		printf("%c", str1[i]);
 		if(str1[i]=='+')
 			printf("++");
-
-	i++;
+	   i++;
 	}
 
 	return 0;
