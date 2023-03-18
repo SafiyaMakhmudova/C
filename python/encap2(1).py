@@ -47,11 +47,12 @@ class Card:
                 self._money -= val
                 return successMessage
             else:
-                return "you have not enough money!"
+                return "You have not enough money!"
         else:
             return errPass
         
-uzcard = Card("Kapital Bank", "Husan Musayev MUF", "8600123412347890", "05/27")
+
+uzcard = Card("Humo", "Husan Musayev MUF", "8600123412347890", "05/27")
 
 print(uzcard.hold_with_hand())
 print(uzcard.get_money("1111"))
