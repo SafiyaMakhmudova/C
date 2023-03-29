@@ -94,8 +94,8 @@ class Transaction:
             """
 
 if __name__=="__main__":
-    u1 = User("Adam Jones", "1234 4567 7890 1357", 567.9, "USD")
-    u2 = User("Mikhail Ivanov", "3873 1823 0293 0606", 3847.1, "RUB")
+    u1 = User("Maxmudova Ruxsora", "1234 4567 7890 1357", 567.9, "USD")
+    u2 = User("Maxmudov Mustafo", "3873 1823 0293 0606", 3847.1, "RUB")
 
     print(u1)
     print(u2)
