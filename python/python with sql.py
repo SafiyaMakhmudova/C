@@ -17,8 +17,6 @@ class Employees:
         self.__create_table()
 
 
-
-
     def __create_database(self):
         self.__connection.cursor().execute(f"CREATE DATABASE IF NOT EXISTS {self.__db};")
         self.__connection.cursor().execute(f"USE {self.__db}")
@@ -84,8 +82,6 @@ class Employees:
             
             else:
                 print(*i ,"|") 
-
-
 
 
     def close(self):
